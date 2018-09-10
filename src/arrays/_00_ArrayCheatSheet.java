@@ -35,7 +35,19 @@ public class _00_ArrayCheatSheet {
 			}
 		}
 		// 9 print the entire array to see if step 8 was correct
+		System.out.println("My smallest number is..: " + smallest);
+		for (int i = 0; i < iList.length; i++) {
+			System.out.println(iList[i]);
 
+		}
 		// 10. print the largest number in the array.
+		int largest = 0;
+		for (int i = 0; i < iList.length; i++) {
+			if (iList[i] > largest) {
+				largest = iList[i];
+				System.out.println(iList[i]);
+			}
+		}
+		System.out.println("My largest number is..: " + largest);
 	}
 }
